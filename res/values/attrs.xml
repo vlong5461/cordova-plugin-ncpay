@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 密码输入框样式 -->
+    <declare-styleable name="NCPPaySDKPasswordInputView">
+        <attr name="paySDKBorderWidth" format="dimension"/>
+        <attr name="paySDKBorderColor" format="color"/>
+        <attr name="paySDKBorderRadius" format="dimension"/>
+        <attr name="paySDKPasswordLength" format="integer"/>
+        <attr name="paySDKPasswordWidth" format="dimension"/>
+        <attr name="paySDKPasswordColor" format="color"/>
+        <attr name="paySDKPasswordRadius" format="dimension"/>
+    </declare-styleable>
+</resources>

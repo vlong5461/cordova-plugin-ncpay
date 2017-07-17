@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_20px">15sp</dimen><!-- value值的1.5倍 -->
+    <dimen name="text_24px">18sp</dimen>
+    <dimen name="text_28px">21sp</dimen>
+    <dimen name="text_30px">22.5sp</dimen>
+    <dimen name="text_32px">24sp</dimen>
+    <dimen name="text_52px">39sp</dimen>
+    
+    <dimen name="maign_2dp">3dp</dimen>
+    <dimen name="maign_30dp">45dp</dimen>
+    <dimen name="maign_40dp">60dp</dimen>
+    <dimen name="maign_maign_130dp">195dp</dimen>
+    <dimen name="maign_maign_100dp">150dp</dimen>
+</resources>

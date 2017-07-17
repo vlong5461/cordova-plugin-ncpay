@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="该交易曾发起过付款，系统未获取到支付结果。请确认账户时候扣款，避免重复付款。"
+            android:textColor="#585858"
+            android:textSize="@dimen/text_28px" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="如账户已扣款，系统24小时内会自动处理，请取消支付耐心等待。"
+            android:textColor="#999999"
+            android:textSize="@dimen/text_24px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="15dp">
+        
+        <Button
+	        android:id="@+id/xq_duplicate_pay_btn_no"
+		    android:layout_width="@dimen/maign_maign_100dp"
+	        android:layout_height="@dimen/maign_30dp"
+	        android:gravity="center"
+	        android:layout_marginRight="15dp"
+	        android:background="@drawable/xq_shape_pay_btn_no"
+	        android:textColor="#ffffff"
+	        android:textSize="@dimen/text_28px"
+		    android:text="取消支付"/>
+	    
+	    <Button
+	        android:id="@+id/xq_duplicate_pay_btn_yes"
+		    android:layout_width="@dimen/maign_maign_100dp"
+	        android:layout_height="@dimen/maign_30dp"
+	        android:gravity="center"
+	        android:background="@drawable/xq_shape_pay_btn_yes"
+	        android:textColor="#ffffff"
+	        android:textSize="@dimen/text_28px"
+		    android:text="继续支付"/>
+    </LinearLayout>
+    
+
+</LinearLayout>

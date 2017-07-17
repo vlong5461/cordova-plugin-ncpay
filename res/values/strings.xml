@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">支付SDK</string>
+   <!--签约支付加密key -->
+    <string name="xq_newcapec_pay_cert_publickey">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDG0ZxaDTxVIqzRCoc0Yf4fTHeGP0U+YRdk5yjqJNjo0FtM/BLvTLj6txlFW/aYBa6TIHPkX8xZUMg4YC8r1O07q7TfqzW9sFmgwMahOR6atIEfwKX0KzOJ7r+1MzUTBtOXl9I7orDDmvHN9ewbTHXdXjz3xsTLlDfoWaxdh+xmDQIDAQAB</string>
+	
+	<!--密码错误和余额不足提示语 -->
+   <string name="xq_password_error_alert_msg">支付密码错误，请重试</string>
+   <string name="xq_money_not_enough_alert_msg">可用余额不足，请核实后再试</string>
+    
+</resources>

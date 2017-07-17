@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <ImageButton
+            android:id="@+id/xq_dialog_psw_iv_closebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:background="#00000000"
+            android:src="@drawable/xq_payway_icon_close_pwd" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="请输入校园卡消费密码"
+            android:textColor="#666666"
+            android:textSize="@dimen/text_32px" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:src="#E2E2E2" />
+
+    <TextView
+        android:id="@+id/xq_dialog_psw_tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:lineSpacingExtra="2dp"
+        android:lineSpacingMultiplier="1.0"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="#FEB92E"
+        android:textSize="@dimen/text_52px" />
+
+    <net.newcapec.pay.view.PasswordInputView
+        android:id="@+id/xq_dialog_psw_inputview"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:cursorVisible="false"
+        android:inputType="number"
+        android:padding="5dp"
+        app:paySDKBorderColor="#E2E2E2"
+        app:paySDKBorderRadius="1dp"
+        app:paySDKBorderWidth="1dp"
+        app:paySDKPasswordColor="#999999"
+        app:paySDKPasswordLength="6"
+        app:paySDKPasswordWidth="8dp" />
+
+</LinearLayout>

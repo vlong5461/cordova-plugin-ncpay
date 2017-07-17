@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2f1ed"
+    android:orientation="vertical" >
+
+    <!-- 标题栏  start -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/xq_payway_shape_bg_head_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:minWidth="45dp"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/xq_webview_img_head_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/xq_payway_head_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/xq_webview_nav_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="银行卡"
+                android:textColor="#ff666666"
+                android:textSize="@dimen/text_32px" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!-- 标题栏  end -->
+    
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/maign_2dp"
+        android:id="@+id/xq_webview_progressBar"
+        android:progressDrawable="@drawable/xq_webview_progressbar_style"/>
+    
+    <WebView
+        android:id="@+id/xq_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1" 
+        android:background="#fff2f1ed"/>
+
+</LinearLayout>

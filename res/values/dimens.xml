@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_20px">10sp</dimen>
+    <dimen name="text_24px">12sp</dimen>
+    <dimen name="text_28px">14sp</dimen>
+    <dimen name="text_30px">15sp</dimen>
+    <dimen name="text_32px">16sp</dimen>
+    <dimen name="text_52px">26sp</dimen>
+    
+    <dimen name="maign_2dp">2dp</dimen>
+    <dimen name="maign_30dp">30dp</dimen>
+    <dimen name="maign_40dp">40dp</dimen>
+    <dimen name="maign_maign_130dp">130dp</dimen>
+    <dimen name="maign_maign_100dp">100dp</dimen>
+</resources>
